@@ -119,13 +119,3 @@ Copy code
     "is_admin":false // set to true if you want to give admin privileges
 }
 
-already existing email _id
-
-1. to access HR Dashboard:
-email:user6@nebula.ai
-password: user6@nebula.ai
-
-
-2. to access chatbot for employees:
-email:user8@nebula.ai
-password: user8@nebula.ai
