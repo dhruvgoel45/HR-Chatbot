@@ -1,0 +1,4 @@
+Employee_ID,Full_Name,Date_of_Birth,Gender,Contact_Number,Email_Address,Emergency_Contact,Permanent_Address
+1,John Doe,1990-05-15,Male,1234567890,john.doe@example.com,9876543210,"123 Main St, CityA, CountryX"
+2,Jane Smith,1985-08-22,Female,2345678901,jane.smith@example.com,8765432109,"456 Elm St, CityB, CountryY"
+3,Alex Brown,1992-11-30,Other,3456789012,alex.brown@example.com,7654321098,"789 Oak St, CityC, CountryZ"

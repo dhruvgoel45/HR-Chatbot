@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Stream Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #responseContainer {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+            min-height: 200px;
+            white-space: pre-wrap;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat Stream Demo</h1>
+    
+    <input type="text" id="queryInput" placeholder="Enter your query...">
+    <button onclick="sendQuery()">Send</button>
+    
+    <div id="responseContainer"></div>
+
+    <script>
+        async function sendQuery() {
+            const queryText = document.getElementById('queryInput').value;
+            const responseContainer = document.getElementById('responseContainer');
+            responseContainer.textContent = ''; // Clear previous response
+
+            try {
+                const response = await fetch('http://localhost:8000/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        query_text: queryText,
+                        new_chat: true,
+                        username: "dhruv",
+                        email_id: "aanchal@nebula9.ai"
+                    })
+                });
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                
+                async function readStream() {
+                    while(true) {
+                        const { done, value } = await reader.read();
+                        if(done) {
+                            console.log('Stream complete');
+                            return;
+                        }
+
+                        // Decode the chunk and split by newlines
+                        const chunk = decoder.decode(value);
+                        const lines = chunk.split('\n');
+                        
+                        lines.forEach(line => {
+                            if(line.trim()) {
+                                try {
+                                    const data = JSON.parse(line);
+                                    if(data.type === 'text') {
+                                        // Append the content to the response container
+                                        responseContainer.textContent += data.content;
+                                        // Auto-scroll to bottom
+                                        responseContainer.scrollTop = responseContainer.scrollHeight;
+                                    }
+                                } catch(e) {
+                                    console.error('Error parsing JSON:', e);
+                                }
+                            }
+                        });
+                    }
+                }
+
+                readStream();
+                
+            } catch(error) {
+                console.error('Fetch error:', error);
+                responseContainer.textContent = 'Error: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html>

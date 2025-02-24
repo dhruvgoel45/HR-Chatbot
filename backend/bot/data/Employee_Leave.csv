@@ -1,0 +1,4 @@
+Leave_ID,Employee_ID,Leave_Type,Leave_Balance,Leave_Taken
+401,1,Annual,15,5
+402,2,Sick,10,2
+403,3,Casual,8,3

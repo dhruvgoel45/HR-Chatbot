@@ -1,0 +1,4 @@
+Document_ID,Document_Name,Document_Type,Upload_Date,Version,Description,Category,Uploaded_By,File_Link,Status
+301,Leave Policy,Leave Policy,2023-01-01,1.0,Policy for leave management,HR Policies,HR User1,http://example.com/leave_policy.pdf,Active
+302,Code of Conduct,Code of Conduct,2023-02-15,2.0,Employee code of conduct,HR Policies,HR User2,http://example.com/code_of_conduct.pdf,Active
+303,IT Security Policy,IT Policy,2023-03-10,1.5,Policy for IT security,IT Policies,HR User3,http://example.com/it_security.pdf,Archived

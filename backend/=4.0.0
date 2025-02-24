@@ -1,0 +1,2 @@
+Requirement already satisfied: redis in ./env/lib/python3.10/site-packages (5.2.1)
+Requirement already satisfied: async-timeout>=4.0.3 in ./env/lib/python3.10/site-packages (from redis) (4.0.3)

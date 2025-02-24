@@ -1,0 +1,64 @@
+S. No,List of projects,High Level Description,Links / documents / exising codebase / mockups / presentation,Demo Video/ Figma Link,Assigned to,Dev Mentor,Product Management,Github Repo,Drive Link,Project Overview Document,BRD,PRD,TDD,Project Plan and Sprint Plan,Task and Assignment Tracker,Status update Sheet and Deck,Concept Deck
+1,Gen AI based Legal Co-pilot,"1. Ability to answer legal queries based on ingested data
+2. Ability to suggest legal clauses based on context
+3. Ability to summarize lengthy legal documents
+4. RBAC (based on permissions or different filters)
+5. Ability to provide legal document drafting assistance
+6. Ability to analyze contracts and highlight potential risks
+7. Ability to track and update legal regulations
+8. Ability to ensure compliance with legal standards and guidelines
+9. Ability to automatically update or add documents (GooleDrive or SharePoint)","
+https://docs.google.com/document/d/1XnDrEtCZqKAiBKjo0ofKeJPU2zvW2qFUSB6NUf8OOBQ/edit?tab=t.0",https://drive.google.com/file/d/1GfvOcB5VrWYN7x1WVcTIlrLsLHavR_FW/view?usp=sharing,Chandan,Mayank,Jazlyn,https://github.com/Nebula9-ai/Legal-Co-pilot,https://drive.google.com/drive/folders/1Rv9t5JpPdytmLnqAFpH28-PzuURVw5SX?usp=sharing,,https://docs.google.com/document/d/1c1VhlddZs9ro3gn7_SJC5R7vJJlRIaAgQKjJQ7wBo5o/edit?usp=sharing,https://docs.google.com/document/d/1_rNZsJ8KrDmsCGO2MSIjMmDEkbHs6EjBRLWQuBZE4Dc/edit?usp=sharing,,,,,
+2,Automated GenAI news mailer,"1. Ability to aggregate and analyze news from various sources.(scrap)
+2. Ability to summarize news articles based on user preferences.
+3. Ability to design dynamic and visually engaging email templates
+4. Ability to schedule and automate email delivery
+5. Ability to adapt content based on feedback and interaction",,,Priyansh,Navanit,Jazlyn,https://github.com/Nebula9-ai/Automated-News-Mailer,https://drive.google.com/drive/folders/1_IcN0rC4NMKixL7x29D2G1Ru4it50XlC?usp=sharing,,https://docs.google.com/document/d/1PO85KOIhTSZm00nwaTOx0nPW6ZT36rcsx49TajuIED8/edit?usp=sharing,https://docs.google.com/document/d/133el4IVQWtSiHtRrQZJt4Dn97x6q8D2PlaMkpytVyPA/edit?usp=sharing,https://docs.google.com/document/d/1Kfe2w1JefO8feFqDRMRnoLtRe6Es7m_sL8RT5pZC-AQ/edit?usp=sharing,,,,
+3,HR Induction/ Query/Policy Chatbot,"1. Ability to guide new employees through the onboarding process
+2. Ability to provide instant responses to HR-related queries (leave policies, benefits, etc.)
+3. Ability to offer personalized answers based on employee roles and locations
+4. Ability to provide access to company policies and documentation
+5. Ability to escalate complex queries to HR personnel when necessary
+6. Ability to track and log employee interactions for follow-up and improvement
+7. Ability to provide reminders and notifications for key HR tasks (training deadlines, document submissions)",,,Dhruv,Divyam,Jazlyn,https://github.com/Nebula9-ai/HR-Chatbot,https://drive.google.com/drive/folders/1AdpzToz-J6QUSW3LkWxj7pEmOeC5D5CD?usp=sharing,,https://docs.google.com/document/d/1J6Ns-FlA6giir4kJMYw_XFrvlnNO1nvVPwlvYg9MN9I/edit?usp=sharing,https://docs.google.com/document/d/1BtgrkX9CRwEV8sRzlNXjs70SqNL9wvHYwgxJ3Guh_5s/edit?usp=sharing,,,,,
+4,Lead Gen Chatbot on a website,"1. Ability to engage visitors in conversational interactions
+2. Ability to answer visitor queries in real-time
+3. Ability to collect contact information to generate leads
+4. Ability to integrate with CRM for lead management
+5. Ability to personalize responses based on user behavior
+6. Ability to implement data privacy and compliance",,,Aanchal,Mayank,Vidushi,https://github.com/Nebula9-ai/Lead-Gen-website-Chatbot,https://drive.google.com/drive/folders/1hBxibQsK9XnjM0aItH-T8Za5mkp50zzG?usp=sharing,,,https://docs.google.com/document/d/1fYcMoq6qng3htNBb5zU7Szx2VNBhwtv5/edit,,,,,
+5,FinGen - A Gen AI based Financial Planning & Analysis solution,"1. Abilty to integrate with financial data bases
+2. Ability to create alerts
+3. Ability to generate charts on the fly
+4. Ability to integrate with Machine Learning APIs
+5. Ability to generate Scenarios and perform what if analysis
+6. Ability to track market
+7. Ability to interact with Financial data",https://docs.google.com/document/d/16a98iaGWrEMKgi0-UoD2Lj5thy6ZmOdYGoBfJYcoPfs/edit?tab=t.0#heading=h.ys4kbtv7akj1,https://drive.google.com/file/d/1_5z5FC254N5pmlk4DmWZYMPEt9C8c-KY/view?usp=sharing,Lakshit,Divyam,Ayushi,https://github.com/Nebula9-ai/FinGen,https://drive.google.com/drive/folders/1PNNZykeDSrJiwSz8vPdTMhv6K7HN4K9Y?usp=sharing,,,,,,,,
+6,AutoDev - Multi-Agent framework implementation for Diverse usecases,"1. Ability to create Agents, skills, tools and tasks
+2. Ability to orchestrate workflows
+3. Ability to Execute workflows autonomously and in HITL model
+4. Ability to generate high quality output (near to 90% as compared to human output)
+5. Ability to create multiple, diverse usecases",,,Arham,Navanit,Jazlyn,https://github.com/NeuronicDev/Multi-Agent-Framework_new/tree/arham,https://drive.google.com/drive/folders/1D2RgMHr_p9mTlwINmqLTEKLvBSV4XPDf?usp=sharing,,https://docs.google.com/document/d/1CuER5CCZEeXTjTJOYBIYNZ87KH1kwNPNfXAsyGODltQ/edit?usp=sharing,https://docs.google.com/document/d/1UDeBof_aQE1KQCybe7tyDUzdF6IgYtu27ZF9xmys1wQ/edit?usp=sharing,,,,,
+7,TenderPulse,"1. Ability to automate tender search process from govt websites for each state 
+2. Filter them based on user preferences w.r.t place, budget, time etc 
+3. Generating Bid synopsis reports and scope of work extraction
+4. Ability to download and sending email alerts",https://docs.google.com/document/d/1LV2l47FSpAMMLWCwWoKx1Lc0n4vQ3sKb9XI9em7-R6U/edit?usp=sharing,https://www.figma.com/design/QuFmX7d4WAx85TvUMD2WSp/Ceigall-India-Mock-ups?node-id=0-1&t=glpMrKkgqQxtciAQ-1,Pallav,Bhanu,Ayushi,https://github.com/Nebula9-ai/TenderPulse,https://drive.google.com/drive/folders/1kcwus0K1rRSSR4JoOd9IFFsVn9MQ66va?usp=sharing,,,,,,,,
+8,MultiLingual & Multi Modality customer support chatbot for ecommerce company,"1. Ability to ask questions using text and voice
+2. Ability to ask questions using any language (configurable)
+3. Ability to integrate with multiple data sources (Documents, APIs, databases)
+4. Ability to Execute Transactions
+5. Inbound and Outbound calling support",,,Aksh,Kamal,Vidushi,https://github.com/Nebula9-ai/MultiLingual-Multi-Modality-Chatbot,https://drive.google.com/drive/folders/1ueF1-e5jVOx_DQc-WPL9Lx5Qi0IwJL0a?usp=sharing,,,https://docs.google.com/document/d/1ADtCqA5P51cP2uGCmr7ial_RRZvzXkPL/edit,,,,,
+9,Product Management for Multiple solutions,"1. BRD & PRD
+2. Project Management (Planning, Tracking, Status Reporting)
+3. Presentations, Marketing Collaterals
+4. LinkedIn Posts
+5. Technical Blogs on nebula9 site, Medium and LinkedIn",,,Jazlyn,Ayushi & Kamal,,,,,,,,,,,
+10,Product Management for Multiple solutions,"1. BRD & BRD
+2. Project Management (Planning, Tracking, Status Reporting)
+3. Presentations, Marketing Collaterals
+4. LinkedIn Posts
+5. Technical Blogs on nebula9 site, Medium and LinkedIn",,,Vidushi,Ayushi & Kamal,,,,,,,,,,,
+11,Coder RAG - A RAG based system to enable usage of pre-existing code modules in new projects,"1. Ability to utilize various accelerators available
+2. Ability to write code for new new usecase using those accelerators
+3. Ability to Adapt those accelerators for new usecases
+4. Finetuning LLM for domain specific codes bases",,,Nikhil,Kamal,Vidushi,https://github.com/Nebula9-ai/Coder-RAG,https://drive.google.com/drive/folders/1N0-MaGSuejBu05MCNYa-hhrTmG9ZWWFR?usp=sharing,,,https://docs.google.com/document/d/1zb2xdeLB505ngFiNjLBoz8x9arESyf3t/edit,,,,,

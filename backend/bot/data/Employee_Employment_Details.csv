@@ -1,0 +1,4 @@
+Employee_ID,Department,Role,Date_of_Joining,Employee_Type,Work_Location
+1,Engineering,Software Engineer,2020-06-01,Full-Time,On-Site
+2,Marketing,Marketing Manager,2019-03-15,Full-Time,Remote
+3,HR,HR Specialist,2021-09-10,Part-Time,Hybrid

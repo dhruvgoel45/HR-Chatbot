@@ -1,0 +1,4 @@
+Query_ID,Employee_ID,Query_Category,Query_Description,Query_Status,Response,Response_Date
+601,1,Payroll,Incorrect salary calculation,Resolved,Salary recalculated and corrected,2023-10-20
+602,2,Leave,Leave balance not updated,Pending,,2023-10-25
+603,3,HR,Query about promotion policy,Escalated,Under review by HR,2023-10-28
